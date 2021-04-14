@@ -1,0 +1,240 @@
+/**
+ * BxSlider v4.0 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2012
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	/*margin: 0 auto 60px;*/
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+	width: 100%;
+}
+
+.slider_page .bx-wrapper img {
+	max-width: 100%;
+	display: block;
+	width: 100%;
+	height:100%;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	/*-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border: solid #fff 5px;
+	left: -5px; margin-bottom:30px; background: #fff;*/
+	
+	
+	
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 20px;
+	right:20px;
+	width: 100%;
+	z-index: 99;
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(../images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: right;
+	font-size: 0px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #686565;
+	text-indent: -9999px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	
+	-moz-opacity: 0.60;
+	opacity: 0.60;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+	filter:alpha(opacity=60);
+
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fff;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 0px;
+	background: url(../images/icon_slider_nav.png) no-repeat left center;
+}
+
+.bx-wrapper .bx-next {
+	right: 0px;
+
+	background: url(../images/icon_slider_nav.png) no-repeat right center;
+}
+
+
+.bx-pager {
+	/*display:none;*/
+}
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	bottom:20px;
+	outline: 0;
+	width: 34px;
+	height: 48px;
+	text-indent: -9999px;
+	z-index: 999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(../images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(../images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption-diver{
+	bottom: 22px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+ 
+}
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #fff\9;
+	background: rgba(255, 255, 255, 0.85);
+	width: 365px;
+	height:auto;
+	padding:18px 35px 30px 35px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+
+background: #f4883b; /* Old browsers */
+background: -moz-linear-gradient(top,  #f4883b 0%, #fab528 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4883b), color-stop(100%,#fab528)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f4883b 0%,#fab528 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f4883b 0%,#fab528 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f4883b 0%,#fab528 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f4883b 0%,#fab528 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4883b', endColorstr='#fab528',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}

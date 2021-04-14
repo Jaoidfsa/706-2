@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            Page not found |             True Pilates Prague        </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link href="../css/css.css" rel="stylesheet" type="text/css">
+        <link href="../css/css_1.css" rel="stylesheet" type="text/css">
+
+        <link href="../css/style.css" rel="stylesheet" type="text/css"> 
+
+        <!--[if IE]>
+            <link rel="stylesheet"  href="http://www.truepilatesprague.com/wp-content/themes/pilate/css/ie.css">
+        <![endif]-->
+
+
+        <link rel="alternate" type="application/rss+xml" title="True Pilates Prague &raquo; Feed" href="http://www.truepilatesprague.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="True Pilates Prague &raquo; Comments Feed" href="http://www.truepilatesprague.com/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.truepilatesprague.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="pi_canvas-css" href="../css/canvas.css" type="text/css" media="all">
+<link rel="stylesheet" id="pi_mini_white-css" href="../css/rs-minimal-white.css" type="text/css" media="all">
+<link rel="stylesheet" id="pi_bxslider-css" href="../css/jquery.bxslider.css" type="text/css" media="all">
+<link rel="stylesheet" id="pi_maximage-css" href="../css/jquery.maximage.css" type="text/css" media="all">
+<link rel="stylesheet" id="pi_royale_slider-css" href="../css/royalslider.css" type="text/css" media="all">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.royalslider.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="../contact.js.php"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.truepilatesprague.com/xmlrpc.php?rsd">
+        <link rel="shortcut icon" href="../favicon.ico">
+    </head>
+	
+
+<style>
+    html{
+    margin-top: 0px !important;
+}
+
+</style>
+    <body>
+        <div align="center">
+
+</div>
+</body>
+</html> 
